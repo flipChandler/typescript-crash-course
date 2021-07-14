@@ -1,0 +1,8 @@
+tsc index.ts : transpila p/ JS
+node index.js : executa o script JS
+tsc --noEmitOnError Customer.ts : do not generate .js file if there is a compilation error 
+tsc --noEmitOnError Student.ts : do not generate .js file if there is a compilation error
+tsc  : compile all the .ts file int the folder at once 
+tsc --init : create the tsconfig.json in hte folder
+tsc --build --clean : clean all the .js files in the folder
+./ : means in the same directory ex.: import { Customer } from './Customer';

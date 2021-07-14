@@ -9,8 +9,7 @@ data = false;
 console.log(`${firstName} ${lastName}`); // template strings
 console.log(data);
 
-// tsc index.ts -> transpila p/ JS
-// node index.js -> executa o script JS
+
 
 
  
